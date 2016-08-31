@@ -57,8 +57,6 @@
       cout<<"the total is $"<<coinsCash<<"."<<coinsCents<<" after the fee you get $"<<feeCash<<"."<<feeCents<<endl;
       
       return 0;
-       git add lab3
-  git commit –a –m ‘Lab 3 submission’
-  git push
+      
   }
  
