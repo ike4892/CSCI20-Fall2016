@@ -15,10 +15,10 @@
       int pennies = 0;
       int fee = 0 ;
       int feeOutput = 0 ;
-      int coinsCash = 0;
-      int coinsCents = 0;
+      double coinsCash = 0;
+      double coinsCents = 0;
       int feeTotal = 0;
-      int feeCash = 0;
+      double feeCash = 0;
       int feeCents = 0;
       
       
@@ -33,7 +33,7 @@
       
       pennies = coins % 5 ;
       
-      coinsCash = coins / 100;
+      coinsCash = coins / 100.00;
       
       coinsCents = coins % 100;
       
@@ -41,9 +41,9 @@
       
       feeTotal = coins - fee;
       
-      feeCash = feeTotal / 100;
+      feeCash = feeTotal / 100.00;
       
-      feeCents = feeTotal % 100;
+      
       
       
        
@@ -54,7 +54,7 @@
       cout<<nickels<< " nickels "<<endl;
       cout<<pennies<< " pennies "<<endl;
       
-      cout<<"the total is $"<<coinsCash<<"."<<coinsCents<<" after the fee you get $"<<feeCash<<"."<<feeCents<<endl;
+      cout<<"the total is $"<<coinsCash<< " after the fee you get $"<<feeCash<<endl;
       
       return 0;
       
