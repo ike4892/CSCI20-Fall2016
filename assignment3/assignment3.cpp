@@ -35,65 +35,71 @@
           
           if ( userRps == compRps){
               
-              cout<<"Draw ";
+              cout<<"Draw "<<endl;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
             
           }
           else if ( userRps == 1 && compRps == 2){
               
-              cout<<" Paper covers Rock! ";
+              cout<<"Paper covers Rock! "<<endl;
               compScore = compScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
           
           else if ( userRps == 1 && compRps == 3){
-              cout<<" Rock crushes Scissors! ";
+              cout<<"Rock crushes Scissors! "<<endl;
               userScore = userScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
           else if (userRps == 2 && compRps == 1){
               
-              cout<<" Paper covers Rock! ";
+              cout<<"Paper covers Rock! "<<endl;
               userScore = userScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
             
           }
           else if (userRps == 2 && compRps == 3){
               
-              cout<<" Scissors cut Paper! ";
+              cout<<"Scissors cut Paper! "<<endl;
               compScore = compScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
           else if (userRps == 3 && compRps == 1){
               
-              cout<<" Rock crushes Scissors ";
+              cout<<"Rock crushes Scissors "<<endl;
               compScore = compScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
           else if (userRps == 3 && compRps == 2){
               
-              cout<<" Scissors cuts Paper! ";
+              cout<<"Scissors cuts Paper! "<<endl;
               userScore = userScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
           }
+          
+      
          
         
-         // }
+         
           
            
            
           
           }
-       
-          
+       if ( userScore == 2){
+         cout<<" You Win! ";
+       }
+       else if ( compScore == 2){
+         cout<<" You Lose! ";
+       }
           
       }
       
-      else if (gameMode = 5){
+      else if (gameMode == 5){
           
           while (userScore < 3 && compScore < 3){
           
@@ -103,56 +109,63 @@
           
           if ( userRps == compRps){
               
-              cout<<"Draw ";
+              cout<<"Draw "<<endl;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
             
           }
           else if ( userRps == 1 && compRps == 2){
               
-              cout<<" Paper covers Rock! ";
+              cout<<"Paper covers Rock! "<<endl;
               compScore = compScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
           
           else if ( userRps == 1 && compRps == 3){
-              cout<<" Rock crushes Scissors! ";
+              cout<<"Rock crushes Scissors! "<<endl;
               userScore = userScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
           else if (userRps == 2 && compRps == 1){
               
-              cout<<" Paper covers Rock! ";
+              cout<<"Paper covers Rock! "<<endl;
               userScore = userScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
             
           }
           else if (userRps == 2 && compRps == 3){
               
-              cout<<" Scissors cut Paper! ";
+              cout<<"Scissors cut Paper! "<<endl;
               compScore = compScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
           else if (userRps == 3 && compRps == 1){
               
-              cout<<" Rock crushes Scissors ";
+              cout<<"Rock crushes Scissors "<<endl;
               compScore = compScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
           else if (userRps == 3 && compRps == 2){
               
-              cout<<" Scissors cuts Paper! ";
+              cout<<"Scissors cuts Paper! "<<endl;
               userScore = userScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
       }
+         if ( userScore == 3){
+         cout<<" You Win! ";
+       }
+       else if ( compScore == 3){
+         cout<<" You Lose! ";
+       }
+      
       }
       
-      else if (gameMode = 7){
+      else if (gameMode == 7){
           
           while (userScore < 4 && compScore < 4){
             
@@ -162,53 +175,58 @@
           
           if ( userRps == compRps){
               
-              cout<<"Draw ";
+              cout<<"Draw "<<endl;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
             
           }
           else if ( userRps == 1 && compRps == 2){
               
-              cout<<" Paper covers Rock! ";
+              cout<<"Paper covers Rock! "<<endl;
               compScore = compScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
           
           else if ( userRps == 1 && compRps == 3){
-              cout<<" Rock crushes Scissors! ";
+              cout<<"Rock crushes Scissors! "<<endl;
               userScore = userScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
           else if (userRps == 2 && compRps == 1){
               
-              cout<<" Paper covers Rock! ";
+              cout<<"Paper covers Rock! "<<endl;
               userScore = userScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
             
           }
           else if (userRps == 2 && compRps == 3){
               
-              cout<<" Scissors cut Paper! ";
+              cout<<"Scissors cut Paper! "<<endl;
               compScore = compScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
           else if (userRps == 3 && compRps == 1){
               
-              cout<<" Rock crushes Scissors ";
+              cout<<"Rock crushes Scissors "<<endl;
               compScore = compScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
           else if (userRps == 3 && compRps == 2){
               
-              cout<<" Scissors cuts Paper! ";
+              cout<<"Scissors cuts Paper! "<<endl;
               userScore = userScore + 1;
               cout<<"Player: "<<userScore<<" CPU: "<< compScore<<" "<<endl;
               
           }
-            
+               if ( userScore == 4){
+         cout<<" You Win! ";
+       }
+       else if ( compScore == 4){
+         cout<<" You Lose! ";
+       }
             
           }
           
